@@ -1,0 +1,152 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    <!-- padding: 1em;-->
+}
+section {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+.project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.image-container {
+    position: relative;
+}
+
+.text-on-image-1 {
+    position: absolute;
+    top: 40%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+
+}
+
+.git-container{
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Wyśrodkowanie wzdłuż osi poziomej */
+    height: 10%
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Wyśrodkowanie wzdłuż osi poziomej */
+}
+
+.box {
+    flex: 1;
+    max-width: 350px;
+    height: 550px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin: 10px 10px;
+    padding: 20px;
+}
+
+.box2 {
+    flex: 1;
+    max-width: 350px;
+    height: 650px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin: 10px 10px;
+    padding: 20px;
+}
+
+.box3 {
+    flex: 1;
+    max-width: 350px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin: 10px 10px;;
+    padding: 20px;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.box2:hover {
+    transform: scale(1.1);
+}
+
+.box3:hover {
+    transform: scale(1.1);
+}
+
+
+.content {
+    padding: 20px;
+
+}
+
+.studies {
+    min-height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.date_shool {
+    min-height: 120px;
+    justify-content: center;
+    text-align: center;
+}
+
+.organization{
+    height: 80px;
+    text-align: center;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.fields{
+    min-height: 120px;
+    justify-content: center;
+    font-size: 16px;
+}
+
+
+.duties{
+    min-height: 120px;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.cours {
+    min-height: 80px;
+    justify-content: center;
+    text-align: center;
+}
