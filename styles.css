@@ -8,8 +8,35 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    <!-- padding: 1em;-->
 }
+
+.circular-img {
+    width: 400px; /* Set the width of your image */
+    height: 400px; /* Set the height of your image */
+    border-radius: 100%; /* Makes the image circular */
+    overflow: hidden; /* Ensures the image doesn't overflow the circular border */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Adjust z-index if needed */
+    z-index: 1;
+    border: 10px solid #fff; /* Define border properties (thickness, style, and color) */
+    box-sizing: border-box; /* Include border in element's dimensions */
+    
+}
+
+
+.circular-img img {
+    width: 140%; /* Make the image fill the container width */
+    height: 120%; /* Let the height adjust proportionally */
+}
+
+
+
 section {
     margin: 20px;
 }
@@ -33,8 +60,8 @@ li {
 
 .text-on-image-1 {
     position: absolute;
-    top: 40%;
-    left: 78%;
+    top: 80%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 30px;
