@@ -177,3 +177,34 @@ li {
     justify-content: center;
     text-align: center;
 }
+
+
+.row {
+    display: flex;
+    justify-content: center; /* Center elements horizontally */
+    align-items: center; /* Align items vertically in the row */
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.column {
+    flex-basis: 30%;
+    margin: 0 5px; /* Adjusted margin to make distance between columns smaller */
+}
+
+.column img {
+    width: 100%; /* Set image width to 60% */
+    margin-bottom: 5px; /* Smaller margin between photos and text */
+}
+
+.column p {
+    text-align: center;
+    margin: 5px 0; /* Adjusted margin to make text closer to photos */
+}
